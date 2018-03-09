@@ -1,23 +1,27 @@
+import java.util.Random;
+
 public class Main {
 
     public static void main(String[] args) {
-        final String appName = "Biblioteka v0.1";
+        boolean result;
+        Random rand = new Random();
+        int x = rand.nextInt(10);
+        int y = rand.nextInt(10);
 
-        String title = "W pustyni i w puszczy";
-        String author = "Henryk Sienkiewicz";
-        int releaseDate = 2010;
-        int pages = 296;
-        String publisher = "Greg";
-        String isbn = "9788373271890";
 
-        System.out.print(appName);
-        System.out.println("Książki dostępne w bibliotece:");
-        System.out.println(title);
-        System.out.println(author);
-        System.out.println(releaseDate);
-        System.out.println(pages);
-        System.out.println(publisher);
-        System.out.println(isbn);
+
+        System.out.print("Czy x jest wieksze od y?");
+        result = x > y;
+        System.out.println(result);
+        System.out.print("Czy x pomnozone przez 2 jest wieksze od y?");
+        result = x > y;
+        System.out.println(result);
+        System.out.print("Czy x jest wieksze od y?");
+        result = x > y;
+        System.out.println(result);
+        System.out.print("Czy x jest wieksze od y?");
+        result = x > y;
+        System.out.println(result);
 
 
     }
