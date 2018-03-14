@@ -14,17 +14,27 @@ public class Calculator {
         return wynik;
     }
 
-    double multiply (double a, double b)
+    double add (double a, double b, double c)
     {
-        double wynik = a * b;
-        return wynik;
+        return add(a, b) +c;
     }
 
-    double divide (double a, double b)
+    double subtract (double a, double b, double c)
     {
-        double wynik = a / b;
-        return wynik;
+        return subtract(a, b) -c;
     }
+
+//    double multiply (double a, double b)
+//    {
+//        double wynik = a * b;
+//        return wynik;
+//    }
+//
+//    double divide (double a, double b)
+//    {
+//        double wynik = a / b;
+//        return wynik;
+//    }
 
 
 
